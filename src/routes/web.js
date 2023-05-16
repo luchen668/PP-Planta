@@ -6,6 +6,6 @@ router.get("/", (req, res)=>{
     res.render("./pages/pagina")
 });
 router.get("/contacto", (req, res)=>{
-    res.render("./pages/contacto")
+    res.render("./pages/Contacto")
 });
 module.exports = router;
